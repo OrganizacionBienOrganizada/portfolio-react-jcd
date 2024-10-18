@@ -1,12 +1,14 @@
-import { ItemNavbar } from "./ItemNavbar/ItemNavbar"
+import { NavItem } from "../../UI/Navbar/NavItem/NavItem"
 
 export const Navbar = () => {
 	return (
 		<nav>
 			<ul>
-				<ItemNavbar content="¿Quién soy?" />
-				<ItemNavbar content="Mi familia" />
-				<ItemNavbar content="Mis estudios"/>
+				<NavItem href="">Presentación</NavItem>
+				<NavItem href="">Educación</NavItem>
+				<NavItem href="">Experiencia</NavItem>
+				<NavItem href="">Proyectos</NavItem>
+				<NavItem href="">Contacto</NavItem>
 			</ul>
 		</nav>
 	)
