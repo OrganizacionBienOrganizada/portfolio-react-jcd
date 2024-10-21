@@ -5,7 +5,6 @@ export const Header = () => {
 	return (
 		<header>
 			<Navbar />
-			<Languages />
 		</header>
 	)
 }

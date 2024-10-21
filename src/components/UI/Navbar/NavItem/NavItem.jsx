@@ -1,6 +1,6 @@
 export const NavItem = ({ href, children }) => {
 	return (
-		<li>
+		<li className="navbarItem">
 			<a href={href}>{children}</a>
 		</li>
 	)
