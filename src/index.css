@@ -62,18 +62,42 @@ header {
 	font-size: 32px;
 }
 
+.skill {
+	list-style: none;
+}
+
 section.horizontal {
 	display: flex;
 	justify-content: space-evenly;
 	width: auto;
 }
 
-section.horizontal > .paragraph {
+section.vertical {
+	display: flex;
+	flex-flow: column;
+}
+
+section.vertical > * {
+	margin-bottom: 10px;
+}
+
+section.horizontal > .paragraph, section.horizontal > section, section.vertical > .paragraph {
 	width: 70%;
+}
+
+section.horizontal > section {
+	padding: 0;
 }
 
 section.horizontal > aside {
 	width: 20%;
+}
+
+#Skills > ul > label {
+	margin-top: 20px;
+	font-weight: 100;
+	display: block;
+	text-align: center;
 }
 
 #author {
@@ -89,7 +113,7 @@ section.horizontal > aside {
 	margin-right: 35px;
 }
 
-#contactList, .paragraphTitle {
+.paragraphTitle {
 	font-weight: bold;
 	font-size: 28px;
 }
