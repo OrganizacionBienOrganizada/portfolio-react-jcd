@@ -4,6 +4,7 @@ import { Presentation } from "../Presentation/Presentation"
 import { Author } from "../../UI/Author/Author"
 import { Skills } from "../../UI/Skills/Skills"
 import { Paragraph } from "../../UI/Paragraph/Paragraph"
+import { ContactForm } from "../../UI/ContactForm/ContactForm"
 
 const appear = () => {
 	console.log(document.getElementById("main"))
@@ -33,9 +34,13 @@ export const Main = () => {
 					<Paragraph title="Educación">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quasi, labore quos error sint inventore optio corrupti adipisci sapiente laudantium, ab suscipit commodi cupiditate placeat! Quae impedit iusto eligendi quod.
 					</Paragraph>
+					<Paragraph title="Experiencia">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque autem suscipit natus. Minus ipsa eos quasi repellat sapiente? Mollitia aperiam nemo ipsa quos provident saepe architecto corporis, repellendus sequi.
+					</Paragraph>
 					<Paragraph title="Proyectos">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloremque similique excepturi pariatur, dolores aspernatur ipsam quibusdam velit harum deleniti labore, blanditiis nemo? Iste blanditiis neque reiciendis nesciunt repudiandae! Quos!
 					</Paragraph>
+					<ContactForm />
 				</section>
 			</section>
 		</main>
