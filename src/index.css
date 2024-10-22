@@ -18,11 +18,17 @@ section {
 
 body {
 	background: linear-gradient(180deg, var(--third) 0%, var(--third) 25%, var(--secondary) 100%);
-	height: 100vh;
+	min-height: 100vh;
 }
 
 header {
 	background: linear-gradient(180deg, var(--primary) 0%, var(--light-primary) 100%);
+}
+
+hr {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
 
 .navbarItem > a {
@@ -66,6 +72,38 @@ header {
 	list-style: none;
 }
 
+.percentageBackground, .percentage {
+	border-radius: 30px;
+}
+
+.percentage {
+	background-color: var(--primary);
+	height: 2.5vh;
+	z-index: 1;
+}
+
+.percentageBackground {
+	margin-top: 5px;
+	background-color: #000000;
+	height: 2.5vh;
+}
+
+.percentageBackground > span {
+	left: 13.25%;
+	right: auto;
+	display: block;
+	z-index: 2;
+	position: absolute;
+}
+
+.skill {
+	padding: 5px;
+}
+
+.skill > label {
+	font-weight: 100;
+}
+
 section.horizontal {
 	display: flex;
 	justify-content: space-evenly;
@@ -95,7 +133,7 @@ section.horizontal > aside {
 
 #Skills > ul > label {
 	margin-top: 20px;
-	font-weight: 100;
+	font-weight: 300;
 	display: block;
 	text-align: center;
 }

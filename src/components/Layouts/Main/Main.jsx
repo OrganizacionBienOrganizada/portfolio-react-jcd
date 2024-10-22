@@ -26,6 +26,7 @@ export const Main = () => {
 		}}>
 			<Author />
 			<Presentation />
+			<hr></hr>
 			<section className="horizontal">
 				<Skills />
 				<section className="vertical">
