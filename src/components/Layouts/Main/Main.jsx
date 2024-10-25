@@ -32,13 +32,13 @@ export const Main = () => {
 				<Skills />
 				<section className="vertical">
 					<Paragraph title="Educación">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quasi, labore quos error sint inventore optio corrupti adipisci sapiente laudantium, ab suscipit commodi cupiditate placeat! Quae impedit iusto eligendi quod.
+						Los primeros años de mi vida estudié en el Centro Educativo Libertad (CEL) pero posteriormente por gran parte de mi vida estudié en casa, adquiriendo la habilidad de estudiar por mi cuenta. Conseguí mi titlo de bachillerato gracias a la Fundación CarloMango en 2022 y en 2024 empecé un curso de Analisis y Desarrollo de software en el SENA.
 					</Paragraph>
 					<Paragraph title="Experiencia">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque autem suscipit natus. Minus ipsa eos quasi repellat sapiente? Mollitia aperiam nemo ipsa quos provident saepe architecto corporis, repellendus sequi.
+						En mi pasado he trabajado en <a href="https://github.com/zje-dev/Ultima-Editor">un editor de graficos del juego de 1986 Ultima: The age of Darkness</a> para Ubuntu hecho en C++, también he colaborado en otros proyecos menores. Hasta el momento nada serio o profesional ya que mayoritariamente he realizado pequeños experimentos.
 					</Paragraph>
 					<Paragraph title="Proyectos">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloremque similique excepturi pariatur, dolores aspernatur ipsam quibusdam velit harum deleniti labore, blanditiis nemo? Iste blanditiis neque reiciendis nesciunt repudiandae! Quos!
+						Nada de lo que esté orgullozo por ahora.
 					</Paragraph>
 					<ContactForm />
 				</section>
