@@ -1,0 +1,14 @@
+main.small {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main.small {
+	width: 100%;
+}
+
+.small > #title > h1 {
+	text-align: center;
+	margin: 20px;
+}

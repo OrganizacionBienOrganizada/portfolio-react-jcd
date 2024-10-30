@@ -1,7 +1,9 @@
+import { NavLink } from "react-router-dom"
+
 export const NavItem = ({ href, children }) => {
 	return (
 		<li className="navbarItem">
-			<a href={href}>{children}</a>
+			<NavLink to={href}>{children}</NavLink>
 		</li>
 	)
 }

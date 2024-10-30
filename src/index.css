@@ -199,3 +199,7 @@ section.horizontal > aside {
 	font-size: 64px;
 	font-weight: bold;
 }
+
+.notExistent {
+	font-size: 100px;
+}

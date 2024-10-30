@@ -4,11 +4,11 @@ export const Navbar = () => {
 	return (
 		<nav>
 			<ul className="navbarItems">
-				<NavItem href="">¿Quien soy?</NavItem>
-				<NavItem href="">Educación</NavItem>
-				<NavItem href="">Experiencia</NavItem>
-				<NavItem href="">Proyectos</NavItem>
-				<NavItem href="">Contacto</NavItem>
+				<NavItem href="/aboutme">Sobre mi</NavItem>
+				<NavItem href="/education">Educación</NavItem>
+				<NavItem href="/experience">Experiencia</NavItem>
+				<NavItem href="/projects">Proyectos</NavItem>
+				<NavItem href="/contact">Contacto</NavItem>
 			</ul>
 		</nav>
 	)
