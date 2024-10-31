@@ -9,7 +9,7 @@ export const Home = ({ style }) => {
 		<main style={style}>
 			<Author />
 			<Presentation />
-			<hr></hr>
+			<hr className="ml-auto mr-auto w-11/12"></hr>
 			<section className="horizontal">
 				<Skills />
 				<section className="vertical">

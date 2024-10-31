@@ -34,7 +34,7 @@ export const App = () => {
 				<Route path="/experience" element={<Experience style={style}/>}/>
 				<Route path="/projects" element={<Projects style={style}/>}/>
 				<Route path="/contact" element={<Contact stlye={style}/>}/>
-				<Route path="/*" element={<h2 className="notExistent">Error 404.</h2>}/>
+				<Route path="/*" element={<h2 className="text-9xl">Error 404.</h2>}/>
 			</Routes>
 		</>
 	)

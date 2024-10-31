@@ -3,7 +3,7 @@ import { NavItem } from "../../UI/Navbar/NavItem/NavItem"
 export const Navbar = () => {
 	return (
 		<nav>
-			<ul className="navbarItems">
+			<ul className="flex flex-wrap mr-0 ml-auto w-fit p-5 text-white">
 				<NavItem href="/aboutme">Sobre mi</NavItem>
 				<NavItem href="/education">Educación</NavItem>
 				<NavItem href="/experience">Experiencia</NavItem>

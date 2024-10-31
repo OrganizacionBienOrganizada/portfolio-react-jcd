@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
 	padding: 0;
 	margin: 0;
@@ -14,122 +18,6 @@
 
 section {
 	padding: 32px;
-}
-
-body {
-	background: linear-gradient(180deg, var(--third) 0%, var(--third) 25%, var(--secondary) 100%);
-	min-height: 100vh;
-}
-
-header {
-	background: linear-gradient(180deg, var(--primary) 0%, var(--light-primary) 100%);
-}
-
-hr {
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-}
-
-form {
-	margin-left: auto;
-	margin-right: auto;
-	width: 30vw;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-}
-
-form > input, textarea {
-	padding: 10px;
-	width: 100%;
-	border: solid 1px var(--primary);
-	color: white;
-	border-radius: 15px;
-	background-color: transparent;
-	margin: 10px;
-}
-
-textarea {
-	height: 20vh;
-}
-
-input[type="submit"] {
-	background:linear-gradient(180deg, var(--primary) 0%, var(--light-primary) 100%);
-	width: 50%;
-}
-
-.navbarItem > a {
-	font-size: 24px;
-	color: white;
-	text-decoration: none;
-	margin-left: 25px;
-	font-weight: bold;
-	filter:opacity(0.7);
-}
-
-.navbarItem > a:hover {
-	filter:opacity(1);
-}
-
-.navbarItems {
-	width: fit-content;
-	display: flex;
-	list-style: none;
-	padding: 25px;
-	margin-left: auto;
-	margin-right: 0;
-}
-
-.flag {
-	width: 2.5%;
-}
-
-.questionMarks {
-	font-weight: bold;
-	font-size: 32px;
-	color: #4e2c23;
-}
-
-.occupation {
-	font-weight: 100;
-	font-size: 32px;
-}
-
-.skill {
-	list-style: none;
-}
-
-.percentageBackground, .percentage {
-	border-radius: 30px;
-}
-
-.percentage {
-	background-color: var(--primary);
-	height: 2.5vh;
-	z-index: 1;
-}
-
-.percentageBackground {
-	margin-top: 5px;
-	background-color: #000000;
-	height: 2.5vh;
-}
-
-.percentageBackground > span {
-	left: 13.25%;
-	right: auto;
-	display: block;
-	z-index: 2;
-	position: absolute;
-}
-
-.skill {
-	padding: 5px;
-}
-
-.skill > label {
-	font-weight: 100;
 }
 
 section.horizontal {
@@ -157,49 +45,4 @@ section.horizontal > section {
 
 section.horizontal > aside {
 	width: 20%;
-}
-
-#Skills > ul > label {
-	margin-top: 20px;
-	font-weight: 300;
-	display: block;
-	text-align: center;
-}
-
-#author {
-	display: flex;
-	flex-flow: row;
-	align-items: center;
-}
-
-#photo {
-	border-radius: 100%;
-	width: 30vh;
-	height: 30vh;
-	margin-right: 35px;
-}
-
-.paragraphTitle {
-	font-weight: bold;
-	font-size: 28px;
-}
-
-#contactList > li {
-	color: #000000;
-	background: linear-gradient(180deg, var(--primary) 0%, var(--light-primary) 100%);
-	margin: 5px;
-	margin-left: 0px;
-	border-radius: 15px;
-	padding: 10px;
-	padding-left: 15px;
-	font-weight: 400;
-}
-
-#title > h1 {
-	font-size: 64px;
-	font-weight: bold;
-}
-
-.notExistent {
-	font-size: 100px;
 }
